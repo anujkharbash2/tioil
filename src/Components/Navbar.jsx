@@ -13,12 +13,12 @@ const Navigation = () => {
     { name: 'Home', path: '/' },
     { name: 'Updates', path: '/updates' },
     { name: 'About', path: '/about' },
-    { name: 'Publications', path: '/publicaions' },
+    { name: 'Publications', path: '/publications' },
     {
       name: 'Research Team',
       dropdown: true,
       subItems: [
-        { name: 'Current Reseachers', path: '/currentreseachers' },
+        { name: 'Current Reseachers', path: '/current-rs' },
         { name: 'Alumni', path: '/alumni' },
       ],
     },

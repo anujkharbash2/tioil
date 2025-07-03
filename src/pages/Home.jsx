@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Microscope, Users, BookOpen, Award, Globe } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
+import Rks from '../Components/rks'; // Importing the rupesh component
 
 
 
@@ -50,6 +52,14 @@ const Home = () => {
           </motion.div>
         </div>
       </section>
+      {/* About Dr. Rupesh K. Srivastava Section */}
+      
+      <Rks/>
+
+     
+     
+        
+    
     </div>
   );
 };

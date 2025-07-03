@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, MapPin, GraduationCap } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, GraduationCap, Heart } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -26,7 +26,7 @@ const Footer = () => {
               <li><a href="/team" className="text-gray-400 hover:text-white transition-colors">Reseach Team</a></li>
               <li><a href="/projects" className="text-gray-400 hover:text-white transition-colors">Publications</a></li>
               <li><a href="/events" className="text-gray-400 hover:text-white transition-colors">Conferences</a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+              <li><a href="/career" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
             </ul>
           </div>
 
@@ -50,19 +50,33 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            © 2025 TIOIL, All India Institute of Medical Sciences | All rights reserved.
-          </p>
-          <div className="flex space-x-4 mt-4 sm:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <GraduationCap className="h-5 w-5" />
-            </a>
-            <a href="#"  className="text-gray-400 hover:text-white transition-colors">
-              <Linkedin className="h-5 w-5" />
-            </a>
-            
-          </div>
-        </div>
+      <p className="text-gray-400 text-sm">
+        © 2025 TIOIL, All India Institute of Medical Sciences | All rights reserved.
+      </p>
+      <div className="flex flex-row space-x-2 mt-4 sm:mt-0 text-sm text-gray-400">
+        <p className="flex items-center">
+          Designed and Developed with <Heart className="h-5 w-5 text-red-500 mx-1" />
+          by{' '}
+          <a
+            href="https://www.linkedin.com/in/anujkharbash"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline ml-1"
+          >
+            Anuj Kumar
+          </a>{' '}
+           &{' '}
+          <a
+            href="https://www.linkedin.com/in/ameetesh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline ml-1"
+          >
+            Ameetesh Awadh
+          </a>
+        </p>
+      </div>
+    </div>
       </div>
     </footer>
   );
