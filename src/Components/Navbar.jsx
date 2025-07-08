@@ -31,7 +31,7 @@ const Navigation = () => {
       ],
     },
     { name: 'Contact', path: '/contact' },
-    { name: 'Careers', path: '/career' },
+    { name: 'Careers', path: '/careers' },
   ];
 
   return (
