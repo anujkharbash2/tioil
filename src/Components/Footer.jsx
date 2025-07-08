@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="/team" className="text-gray-400 hover:text-white transition-colors">Reseach Team</a></li>
               <li><a href="/projects" className="text-gray-400 hover:text-white transition-colors">Publications</a></li>
-              <li><a href="/events" className="text-gray-400 hover:text-white transition-colors">Conferences</a></li>
+              <li><a href="/isbh2025" className="text-gray-400 hover:text-white transition-colors">ISBH 2025</a></li>
               <li><a href="/career" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
             </ul>
           </div>
@@ -65,15 +65,6 @@ const Footer = () => {
           >
             Anuj Kumar
           </a>{' '}
-           &{' '}
-          <a
-            href="https://www.linkedin.com/in/ameetesh"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-400 hover:underline ml-1"
-          >
-            Ameetesh Awadh
-          </a>
         </p>
       </div>
     </div>

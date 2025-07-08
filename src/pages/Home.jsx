@@ -23,8 +23,8 @@ const Home = () => {
             className="text-center text-white"
           >
             <div className="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
-              <img src="/logo.avif" alt="TIOIL Logo" className="h-36 animate-bounce-slow" />
-              <img src="/aiimslogo.avif" alt="AIIMS Logo" className="h-36 animate-bounce-slow" />
+              <img src="/logo.avif" alt="TIOIL Logo" className="h-36 " />
+              <img src="/aiimslogo.avif" alt="AIIMS Logo" className="h-36 hidden md:block" />
             </div>
 
 

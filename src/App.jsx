@@ -6,6 +6,9 @@ import Contact from './pages/Contact.jsx';
 import NotFound from './pages/notfound.jsx';
 import CurrentRs from "./pages/CurrentRs";
 import Publications from './pages/Publications.jsx';
+import Isbh2025 from './pages/ISBH2025.jsx';
+import Updates from './pages/Updates.jsx';
+import Careers from './pages/careers.jsx';
 
 
 function App() {
@@ -17,6 +20,12 @@ function App() {
            <Route path="/contact" element={<Contact />} />
            <Route path="/current-rs" element={<CurrentRs />} />
            <Route path="/publications" element={<Publications />} />
+          <Route path="/isbh2025" element={<Isbh2025 />} />
+          <Route path="/updates" element={<Updates />} />
+          <Route path="/careers" element={<Careers />} />
+            
+
+           
            <Route path="*" element={<NotFound />} />
       
         </Routes>
