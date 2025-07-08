@@ -9,12 +9,14 @@ import Publications from './pages/Publications.jsx';
 import Isbh2025 from './pages/ISBH2025.jsx';
 import Updates from './pages/Updates.jsx';
 import Careers from './pages/careers.jsx';
+import ScrollToTop from "./ScrollToTop";
 
 
 function App() {
   return (
     <Router basename="/">
       <Layout>
+      <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
            <Route path="/contact" element={<Contact />} />
