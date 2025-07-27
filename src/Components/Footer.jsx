@@ -55,7 +55,7 @@ const Footer = () => {
       </p>
       <div className="flex flex-row space-x-2 mt-4 sm:mt-0 text-sm text-gray-400">
         <p className="flex items-center">
-          Designed and Developed with <Heart className="h-5 w-5 text-red-500 mx-1" />
+          Designed and Developed 
           by{' '}
           <a
             href="https://www.linkedin.com/in/anujkharbash"

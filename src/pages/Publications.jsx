@@ -26,7 +26,7 @@ const Publications = () => {
   const averageImpact = publications.reduce((sum, pub) => sum + pub.impact, 0) / publications.length;
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-gray-900 transition-colors duration-300">
       {/* Hero Section */}
       <section className="py-20 bggray-9800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,9 +48,9 @@ const Publications = () => {
       
 
       {/* Search and Filters */}
-      <section className="py-12 bg-white dark:bg-gray-900">
+      <section className="py-12 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 mb-8">
+          <div className="bg-gray-800 rounded-xl p-6 mb-8">
             <div className="flex flex-col md:flex-row gap-4">
               <div className="flex-1 relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400" />
@@ -59,14 +59,14 @@ const Publications = () => {
                   placeholder="Search publications..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-aiims-blue dark:focus:ring-blue-400 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                  className="w-full pl-10 pr-4 py-3 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent bg-gray-700 text-white"
                 />
               </div>
               <div className="flex gap-4">
                 <select
                   value={selectedYear}
                   onChange={(e) => setSelectedYear(e.target.value)}
-                  className="px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-aiims-blue dark:focus:ring-blue-400 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                  className="px-4 py-3 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent bg-gray-700 text-white"
                 >
                   {years.map(year => (
                     <option key={year} value={year}>
@@ -77,7 +77,7 @@ const Publications = () => {
                 <select
                   value={selectedCategory}
                   onChange={(e) => setSelectedCategory(e.target.value)}
-                  className="px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-aiims-blue dark:focus:ring-blue-400 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
+                  className="px-4 py-3 border border-gray-600 rounded-lg focus:ring-2 ffocus:ring-blue-400 focus:border-transparent bg-gray-700 text-white"
                 >
                   {categories.map(category => (
                     <option key={category} value={category}>
@@ -97,12 +97,12 @@ const Publications = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
+                className="bg-gray-800 rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="flex flex-col lg:flex-row lg:items-start gap-4">
                   <div className="flex-1">
                     <div className="flex items-start justify-between mb-3">
-                      <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 leading-tight">
+                      <h3 className="text-xl font-semibold text-white mb-2 leading-tight">
                         {publication.title}
                       </h3>
                       <span className="bg-aiims-blue text-white px-3 py-1 rounded-full text-xs font-medium ml-4">
@@ -110,7 +110,7 @@ const Publications = () => {
                       </span>
                     </div>
                     
-                    <div className="flex items-center space-x-4 text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    <div className="flex items-center space-x-4 text-sm text-gray-400 mb-3">
                       <span className="flex items-center">
                         <Users className="h-4 w-4 mr-1" />
                         {publication.authors}
@@ -130,7 +130,7 @@ const Publications = () => {
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 text-sm">
-                    <span className="flex items-center bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 px-2 py-1 rounded">
+                    <span className="flex items-center bg-green-900 text-green-200 px-2 py-1 rounded">
                         IF: {publication.impact}
                       </span>
                       <a

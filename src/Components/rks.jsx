@@ -57,7 +57,7 @@ const Rks = () => {
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <Award className="h-5 w-5 mr-3 text-blue-200" />
-                  <span>PPost-Doctoral Scientist, Columbia University, New York, USA</span>
+                  <span>Post-Doctoral Scientist, Columbia University, New York, USA</span>
                 </li>
                 <li className="flex items-center">
                   <BookOpen className="h-5 w-5 mr-3 text-blue-200" />

@@ -4,10 +4,10 @@ import { currentRsData } from "../data/CurrentRsData";
 
 const CurrentRs = () => {
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-900 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-4xl font-bold text-white">
             Current Researchers
           </h1>
         </div>

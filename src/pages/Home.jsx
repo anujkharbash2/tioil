@@ -10,11 +10,11 @@ import Rks from '../Components/rks'; // Importing the rupesh component
 const Home = () => {
 
   return (
-    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen bg-[#7c3e65] transition-colors duration-300">
       
 
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 bg-gradient-to-br from-blue to-blue-800 dark:from-blue-900 dark:to-gray-900">
+      <section className="relative py-20 lg:py-32 bg-[#7c3e65] ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -38,7 +38,7 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/about"
-                className="inline-flex items-center px-8 py-3 bg-white text-gray-700 rounded-lg font-semibold hover:bg-gray-800 hover:text-white transition-colors duration-200"
+                className="inline-flex items-center px-8 py-3 bg-custom-purple text-gray-700 rounded-lg font-semibold hover:bg-gray-800 hover:text-white transition-colors duration-200"
               >
                 Learn More <ArrowRight className="ml-2 h-5 w-5" />
               </Link>

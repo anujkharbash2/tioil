@@ -35,14 +35,14 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#eee8d8] backdrop-blur-sm border-b border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="/logo.avif" className="h-15" alt="TIOIL Logo" />
             <img src="/aiimslogo.avif" className="h-15" alt="AIIMS Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap text-Gray">
               TIOIL
             </span>
           </Link>
@@ -57,8 +57,8 @@ const Navigation = () => {
                     <button
                       className={`px-3 py-2 rounded-md text-sm font-medium flex items-center gap-1 ${
                         item.subItems.some((i) => isActive(i.path))
-                          ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/25'
-                          : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                          ? 'bg-[#eee8d8] text-gray-300 shadow-lg shadow-blue-600/25'
+                          : 'text-gray-300 hover:bg-[#eee8d8] hover:text-black'
                       }`}
                       
                     >
@@ -66,13 +66,13 @@ const Navigation = () => {
                       {item.name}
                       <ChevronDown className="h-4 w-4" />
                     </button>
-                    <div className="absolute left-0 mt-2 w-40 bg-gray-800 text-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
+                    <div className="absolute left-0 mt-2 w-40 bg-[#eee8d8] text-gray-300 rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity z-50">
                       {item.subItems.map((sub) => (
                         <Link
                           key={sub.name}
                           to={sub.path}
-                          className={`block px-4 py-2 text-sm hover:bg-gray-700 ${
-                            isActive(sub.path) ? 'bg-blue-600 text-white' : ''
+                          className={`block px-4 py-2 text-sm hover:bg-[#eee8d8] ${
+                            isActive(sub.path) ? 'bg-[#eee8d8] text-gray-300' : ''
                           }`}
                         >
                           {sub.name}
@@ -86,8 +86,8 @@ const Navigation = () => {
                     to={item.path}
                     className={`px-3 py-2 rounded-md text-sm font-medium transition-all duration-200 ${
                       isActive(item.path)
-                        ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/25'
-                        : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                        ? 'bg-[#eee8d8] text-gray-300 shadow-lg shadow-blue-600/25'
+                        : 'text-gray-300 hover:bg-[#eee8d8] hover:text-Black'
                     }`}
                   >
                     {item.name}
@@ -101,7 +101,7 @@ const Navigation = () => {
           <div className="lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-300 hover:text-gray-300 hover:bg-[#eee8d8] focus:outline-none"
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -118,7 +118,7 @@ const Navigation = () => {
                 <div key={item.name}>
                   <button
                     onClick={() => setIsEventsOpen(!isEventsOpen)}
-                    className="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-800 hover:text-white"
+                    className="w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-[#eee8d8] hover:text-black"
                   >
                     {item.name}
                   </button>
@@ -130,8 +130,8 @@ const Navigation = () => {
                         onClick={() => setIsOpen(false)}
                         className={`ml-4 block px-3 py-2 rounded-md text-sm font-medium ${
                           isActive(sub.path)
-                            ? 'bg-blue-600 text-white shadow shadow-blue-600/25'
-                            : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                            ? 'bg-[#eee8d8] text-gray-300 shadow shadow-blue-600/25'
+                            : 'text-gray-300 hover:bg-[#eee8d8] hover:text-black'
                         }`}
                       >
                         {sub.name}
@@ -145,8 +145,8 @@ const Navigation = () => {
                   onClick={() => setIsOpen(false)}
                   className={`block px-3 py-2 rounded-md text-base font-medium ${
                     isActive(item.path)
-                      ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/25'
-                      : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                      ? 'bg-blue-600 text-black shadow-lg shadow-blue-600/25'
+                      : 'text-gray-700 hover:bg-[#eee8d8] hover:text-Black'
                   }`}
                 >
                   {item.name}
