@@ -6,19 +6,19 @@ const Contact = () => {
 
 
   return (
-    <div className="min-h-screen bg-gray-900 max-w-7xl mx-auto  p-10 md:p-16">
-      <h1 className="text-4xl font-bold text-center mb-8">Contact Information</h1>
+    <div className="min-h-screen bg-[#f5ecf2] text-black max-w-7xl mx-auto  p-10 md:p-16">
+      <h1 className="text-4xl font-bold text-center text-[#7c3e65] mb-8">Contact Information</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         
         {/* Contact info 1 */}
-        <div className="space-y-4 text-lg border-r border-gray-100 pr-8 text-right ">
+        <div className="space-y-4 text-lg border-r border-black pr-8 text-right ">
         <p> <strong>Conatct Person:</strong></p>
           <p>Dr. Rupesh K. Srivastava</p>
           <p><strong>Email:</strong> rupeshk@aiims.edu</p>
           <div className="flex gap-4 mt-4 items-center justify-end">
-            <a href="#" target='_blank' className="hover:text-blue-500"><Instagram/></a>
-            <a href="#" target='_blank' className="hover:text-blue-500">< Github/></a>
-            <a href="#" target='_blank' className="hover:text-blue-500 linkedin"><Linkedin /></a>
+            <a href="#" target='_blank' className="hover:text-[#7c3e65]"><Instagram/></a>
+            <a href="#" target='_blank' className="hover:text-[#7c3e65]">< Github/></a>
+            <a href="#" target='_blank' className="hover:text-[#7c3e65] linkedin"><Linkedin /></a>
           </div>
         </div>
         
