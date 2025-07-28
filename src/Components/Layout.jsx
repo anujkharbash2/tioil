@@ -5,7 +5,7 @@ import NewsTicker from './NewsTicker.jsx';
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="min-h-screen bg-[#f5ecf2] text-white">
         <Navbar />
         <div className="pt-16"> {/* adjust depending on your nav height */}
         <NewsTicker />

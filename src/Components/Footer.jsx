@@ -3,17 +3,17 @@ import { Github, Linkedin, Mail, MapPin, GraduationCap, Heart } from 'lucide-rea
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-950 border-t border-gray-800">
+    <footer style={{ backgroundColor: '#eee8d8', color: 'black' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="text-2xl font-bold bg-white bg-clip-text text-transparent">
+              <div className="text-2xl font-bold bg-clip-text text-transparent" style={{ color: '#7c3e65' }}>
               TIOIL : 
               </div>
             </div>
-            <p className="text-gray-400 max-w-md">
+            <p className="max-w-md" style={{ color: 'black' }}>
               Translational Immunology, Osteoimmunology & Immunoporosis Lab - The birth place of "Immunoporosis" : Immunology of Osteoporosis
               <br />ICMR-Collaborating Centre of Excellence (ICMR-CCoE) on Bone Health
             </p>
@@ -21,26 +21,26 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4" style={{ color: '#7c3e65' }}>Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/team" className="text-gray-400 hover:text-white transition-colors">Reseach Team</a></li>
-              <li><a href="/projects" className="text-gray-400 hover:text-white transition-colors">Publications</a></li>
-              <li><a href="/isbh2025" className="text-gray-400 hover:text-white transition-colors">ISBH 2025</a></li>
-              <li><a href="/careers" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
+              <li><a href="/team" className="hover:text-white transition-colors" style={{ color: 'black' }}>Reseach Team</a></li>
+              <li><a href="/projects" className="hover:text-white transition-colors" style={{ color: 'black' }}>Publications</a></li>
+              <li><a href="/isbh2025" className="hover:text-white transition-colors" style={{ color: 'black' }}>ISBH 2025</a></li>
+              <li><a href="/careers" className="hover:text-white transition-colors" style={{ color: 'black' }}>Careers</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4" style={{ color: '#7c3e65' }}>Contact</h3>
             <div className="space-y-2">
-              <div className="flex items-center space-x-2 text-gray-400">
-                <Mail className="h-4 w-4" />
+              <div className="flex items-center space-x-2" style={{ color: 'black' }}>
+                <Mail className="h-4 w-4" style={{ color: '#7c3e65' }} />
                 <span>rupeshk@aiims..edu</span>
               </div>
               
-              <div className="flex items-center space-x-2 text-gray-400">
-                <MapPin className="h-4 w-4" />
+              <div className="flex items-center space-x-2" style={{ color: 'black' }}>
+                <MapPin className="h-4 w-4" style={{ color: '#7c3e65' }} />
                 <span>Department of Biotechnology, AIIMS, New Delhi 110029</span>
                 
               </div>
@@ -49,11 +49,11 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center">
-      <p className="text-gray-400 text-sm">
+        <div className="mt-8 pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center" style={{ borderColor: '#7c3e65' }}>
+      <p className="text-sm" style={{ color: 'black' }}>
         © 2025 TIOIL, All India Institute of Medical Sciences | All rights reserved.
       </p>
-      <div className="flex flex-row space-x-2 mt-4 sm:mt-0 text-sm text-gray-400">
+      <div className="flex flex-row space-x-2 mt-4 sm:mt-0 text-sm" style={{ color: 'black' }}>
         <p className="flex items-center">
           Designed and Developed 
           by{' '}
@@ -61,7 +61,8 @@ const Footer = () => {
             href="https://www.linkedin.com/in/anujkharbash"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-blue-400 hover:underline ml-1"
+            className="hover:underline ml-1"
+            style={{ color: 'black' }}
           >
             Anuj Kumar
           </a>{' '}
