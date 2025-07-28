@@ -5,11 +5,14 @@ import updatesData from '../data/updatesData';
 
 const NewsTicker = () => {
 
+  // Limit the updates to the first 4
+  const limitedUpdates = updatesData.slice(0, 4);
+
   return (
-    <div className="bg-gray-800 text-white py-2 overflow-hidden">
+    <div className="bg-[#eee8d8] text-black py-2 overflow-hidden">
       <div className="flex items-center">
         <div className="flex-shrink-0 px-4">
-          <span className="bg-white text-blue-800 px-2 py-1 rounded text-xs font-semibold">
+          <span className="bg-white text-[#7c3e65] px-2 py-1 rounded text-xs font-semibold">
             LATEST NEWS
           </span>
         </div>
@@ -23,10 +26,10 @@ const NewsTicker = () => {
               ease: 'linear'
             }}
           >
-            {updatesData.map((item, index) => (
+            {limitedUpdates.map((item, index) => (
               <div key={index} className="flex items-center space-x-2 whitespace-nowrap">
                 {item.icon}
-                <span className="text-sm"><a href={item.link} target='_blank'>{item.title} <strong>View more</strong> </a></span>
+                <span className="text-sm"><a href={item.link} target='_blank' style={{ color: 'black' }}>{item.title} <strong>View more</strong> </a></span>
                 
               </div>
             ))}

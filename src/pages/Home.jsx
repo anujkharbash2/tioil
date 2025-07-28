@@ -14,7 +14,7 @@ const Home = () => {
       
 
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 bg-[#7c3e65] ">
+      <section className="relative py-20 lg:py-12 bg-[#7c3e65] ">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -28,9 +28,10 @@ const Home = () => {
             </div>
 
 
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-pulse">
-              Translational Immunology and<br />
-              <span className="text-blue-200">Osteoimmunology Lab</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-[#eee8d8] mb-6 animate-pulse">
+            Translational Immunology, Osteoimmunology <br />
+              <span className="text-blue-200">& Immunoporosis Lab
+              (TIOIL)</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto">
             ICMR-Collaborating Centre of Excellence (ICMR-CCoE) on Bone Health
@@ -38,13 +39,13 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/about"
-                className="inline-flex items-center px-8 py-3 bg-custom-purple text-gray-700 rounded-lg font-semibold hover:bg-gray-800 hover:text-white transition-colors duration-200"
+                className="inline-flex items-center px-8 py-3 bg-[#eee8d8] text-[#7c3e65] rounded-lg font-semibold hover:bg-[#7c3e65]  hover:border-2 hover:border-[#eee8d8] hover:text-[#eee8d8] transition-colors duration-200"
               >
                 Learn More <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 to="/research-openings"
-                className="inline-flex items-center px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-gray-800 transition-colors duration-200"
+                className="inline-flex items-center px-8 py-3 border-2 border-[#eee8d8] text-[#eee8d8] rounded-lg font-semibold hover:bg-[#eee8d8] hover:text-[#7c3e65] transition-colors duration-200"
               >
                 Join Our Team
               </Link>

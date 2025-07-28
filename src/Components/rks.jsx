@@ -15,14 +15,14 @@ const Rks = () => {
             </h2>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-              Dr. Rupesh K. Srivastava is an Associate Professor, Department of Biotechnology, AIIMS and Adjunct Faculty (CCRF, AIIMS), New Delhi. He is a translational researcher with expertise in Cellular and Molecular Immunology.
-            </p>
-            <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-              He earned his Ph.D. from NCCS Pune and received post-doctoral training at Columbia University and Roswell Park Cancer Institute, New York. 
-              Known for proposing the novel concept of “Immunoporosis,” his lab at AIIMS (TIOIL) focuses on immune-bone system interactions in health and disease.
+            Welcome to Translational Immunology, Osteoimmunology & Immunoporosis Lab group at AIIMS, New Delhi.
+            During my doctoral research work form NCCS, Pune I got a glimpse of the very exciting and thrilling field of Immunology. This led me to further continue my research work in the field of Bone and Immunology at Columbia University Medical Centre, NY, USA and Roswell Park Cancer Institute (RPCI), New York, USA
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              He has received numerous national and international awards, handled 20+ major research projects (₹24+ Cr), published 100+ papers, and currently leads a clinical trial on probiotics and osteoporosis.
+            After coming back to India in 2013 as an Assistant professor at Central University, Sagar (MP), and now at All India Institute of Medical Sciences (AIIMS), New Delhi, I am actively involved in deciphering this new field which is still in its very naive state. My research specifically focuses on the cellular and molecular interactions between the Immune and Bone systems i.e “Osteoimmunology” (Frontiers in Biosciences, 2018), a very recent branch of modern biology which specifically deals with the interplay between the immune cells (CD4, CD8 T cells, B cells, DCs, Macrophages, ILCs etc.) and bone cells (Osteoclast, Osteoblast & Osteocytes). During normal physiology both systems are at homeostasis but during an imbalance due to various stimuli (infection, autoimmunity, environment, ageing, hormones etc.), it leads to various inflammatory conditions such as Osteoarthritis, Rheumatoid Arthritis & Osteoporosis (viz. post-menopausal osteoporosis). 
+            </p>
+            <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
+            Thus, a molecular understanding of these interactions is at the heart of my research which would ultimately lead to discovery of novel therapeutics for various inflammatory bone conditions.
             </p>
 
             <Link
