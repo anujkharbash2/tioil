@@ -10,6 +10,7 @@ import Isbh2025 from './pages/ISBH2025.jsx';
 import Updates from './pages/Updates.jsx';
 import Careers from './pages/careers.jsx';
 import ScrollToTop from "./ScrollToTop";
+import Alum from './pages/Alum.jsx';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/isbh2025" element={<Isbh2025 />} />
           <Route path="/updates" element={<Updates />} />
           <Route path="/careers" element={<Careers />} />
+          <Route path="/alumni" element={<Alum />} />
             
 
            

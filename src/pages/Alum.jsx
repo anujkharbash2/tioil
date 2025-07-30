@@ -2,7 +2,7 @@ import React from "react";
 import { GraduationCap, Briefcase, Mail, ExternalLink } from "lucide-react";
 
 // Assuming currentRsData is correctly imported from its path
-import { currentRsData } from "../data/CurrentRsData";
+import { Alumni } from "../data/Alumni";
 
 
 // Custom SVG Icon Components... (no changes here)
@@ -141,13 +141,13 @@ const CurrentResearcher = ({ research }) => {
 };
 
 
-const CurrentRs = () => {
+const Alum = () => {
   return (
     <section className="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto bg-[#f5ecf2]">
       
-      <CurrentResearcher research={currentRsData} />
+      <CurrentResearcher research={Alumni} />
     </section>
   );
 };
 
-export default CurrentRs;
+export default Alum;
