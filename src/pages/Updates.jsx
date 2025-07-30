@@ -8,7 +8,7 @@ const Updates = () => {
   return (
     <div className="min-h-screen bg-[#f5ecf2] transition-colors duration-300">
       {/* Hero Section */}
-      <section className="py-20 bg-[#eee8d8]">
+      <section className="py-20 bg-[#f5ecf2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-black">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-[#7c3e65]">Latest Updates</h1>

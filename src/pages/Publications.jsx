@@ -28,7 +28,7 @@ const Publications = () => {
   return (
     <div className="min-h-screen bg-[#f5ecf2] transition-colors duration-300">
       {/* Hero Section */}
-      <section className="py-20 bg-[#eee8d8]">
+      <section className="py-20 bg-[#f5ecf2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -50,16 +50,16 @@ const Publications = () => {
       {/* Search and Filters */}
       <section className="py-12 bg-[#f5ecf2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-[#eee8d8] rounded-xl p-6 mb-8">
-            <div className="flex flex-col md:flex-row gap-4">
-              <div className="flex-1 relative">
+          <div className="bg-[#f5ecf2] rounded-xl p-6 mb-8">
+            <div className="flex flex-col  md:flex-row gap-4">
+              <div className="flex-1 border-2 border-[#7c3e65]  rounded-xl relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-black" />
                 <input
                   type="text"
                   placeholder="Search publications..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-full pl-10 pr-4 py-3 border border-[#f5ecf2] rounded-lg focus:ring-2 focus:ring-[#7c3e65] focus:border-transparent bg-[#f5ecf2] text-black"
+                  className="w-full pl-10 pr-4 py-3 border border-[#f5ecf2]  rounded-lg focus:ring-2 focus:ring-[#7c3e65] focus:border-transparent bg-[#f5ecf2] text-black"
                 />
               </div>
               <div className="flex gap-4">

@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-2" style={{ color: 'black' }}>
                 <Mail className="h-4 w-4" style={{ color: '#7c3e65' }} />
-                <span>rupeshk@aiims..edu</span>
+                <span>rupeshk@aiims.edu</span>
               </div>
               
               <div className="flex items-center space-x-2" style={{ color: 'black' }}>
@@ -54,18 +54,18 @@ const Footer = () => {
         © 2025 TIOIL, All India Institute of Medical Sciences | All rights reserved.
       </p>
       <div className="flex flex-row space-x-2 mt-4 sm:mt-0 text-sm" style={{ color: 'black' }}>
-        <p className="flex items-center">
+        <p className="flex text-[#7c3e65] items-center">
           Designed and Developed 
-          by{' '}
+          by
           <a
             href="https://www.linkedin.com/in/anujkharbash"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline ml-1"
-            style={{ color: 'black' }}
+            className="hover:underline text-[#7c3e65] ml-1"
+            
           >
             Anuj Kumar
-          </a>{' '}
+          </a>
         </p>
       </div>
     </div>

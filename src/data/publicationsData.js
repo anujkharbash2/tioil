@@ -1,7 +1,7 @@
 const publications = [
     
     {
-      id: 1001,
+      id: 'P10112',
       title: 'COVID-19 and bone health: Immunological implications',
       authors: 'Sapra L, Saini C, Mishra PK, Garg B, Gupta M, Srivastava RK',
       journal: "BBA - Molecular Basis of Disease",
@@ -12,7 +12,7 @@ const publications = [
       abstract: 'Compromised anti-osteoclastogenic and immunomodulatory functions of regulatory B cells (Bregs) aggravate inflammatory bone loss in post-menopausal osteoporosis'
     },
     {
-      id: 1002,
+      id: 'P10111',
       title: 'Gut-resident Tregs (GTregs) play a pivotal role in maintaining bone health under post-menopausal osteoporotic conditions',
       authors: 'Bhardwaj A, Sapra L, Madan D, Ahuja V, Sharma HP, Velpandian T, Mishra PK, and Srivastava RK.',
       journal: 'Journal of Leukocyte Biology ',
@@ -23,7 +23,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1003,
+      id: 'P10110',
       title: 'Targeting the osteoclastogenic cytokine IL-9 as a novel immunotherapeutic strategy in mitigating inflammatory bone loss in post-menopausal osteoporosis',
       authors: 'Sapra L, Saini C, Sharma S, Nanda D, Nilakhe A, Chattopadhyay N, Meena AS, Mishra PK, Gupta S, Garg B, Manhas V, Srivastava RK',
       journal: 'JBMR PLUS',
@@ -34,7 +34,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1004,
+      id: 'P10109',
       title: 'Delineating the nexus between gut-intratumoral microbiome and osteo-immune system in bone metastases',
       authors: 'Kapoor S, Gupta M, Sapra L, Kaur T and Srivastava RK',
       journal: 'BONE Reports',
@@ -45,7 +45,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1005,
+      id: 'P10108',
       title: 'Microcystin-LR in drinking water: An emerging role of mitochondrial-induced epigenetic modifications and possible mitigation strategies',
       authors: 'Gupta K, Soni N, Nema RK, Sahu N, Srivastava RK, Ratre P, Mishra PK.',
       journal: 'Toxicol Rep.',
@@ -56,7 +56,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1006,
+      id: 'P10107',
       title: 'Polysaccharides to postbiotics: Nurturing bone health via modulating "gut-immune axis"',
       authors: 'Yadav S, Sapra L, Srivastava RK',
       journal: 'Int J Biol Macromol',
@@ -67,7 +67,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1007,
+      id: 'P10106',
       title: 'Dysregulated Th17/Treg cell axis is correlated with local and systemic immune response in human intermediate uveitis',
       authors: 'Saini C, Sapra L, Puri P, Mishra PK, Chawla R, Srivastava RK',
       journal: 'Immunol Lett',
@@ -78,7 +78,7 @@ const publications = [
       abstract: null
     },
     {
-      id: 1008,
+      id: 'P10105',
       title: 'Lactobacillus rhamnosus (LR) ameliorates pulmonary and extrapulmonary acute respiratory distress syndrome (ARDS) via targeting neutrophils.',
       authors: 'Sapra L, Saini C, Das S, Mishra PK, Singh A, Mridha AR, Yadav PK, Srivastava RK',
       journal: 'Clin Immunol.',
@@ -89,7 +89,7 @@ const publications = [
       abstract: ''
     },
     {
-      id: 1009,
+      id: 'P10104',
       title: 'Targeting “Immunoporosis” as a Novel Concept of Immunotherapy in the Management and Treatment of Osteoporosis.',
       authors: '​Pol V, Kaur T, Bhardwaj A, Sapra L, Yadav S and Srivastava RK',
       journal: 'IntechOpen',
@@ -97,6 +97,1147 @@ const publications = [
       category: null,
       doi: '10.5772/intechopen.1003712',
       impact: null,
+      abstract:null
+    },
+
+    {
+      "id": "P10103",
+      "title": "Unravelling the immunobiology of innate lymphoid cells (ILCs): Implications in health and disease.",
+      "authors": "Srivastava RK, Sapra L, Bhardwaj A, Mishra PK, Verma B, Baig Z.",
+      "journal": "Cytokine Growth Factor Rev.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1016/j.cytogfr.2023.09.002",
+      "impact": 13.0,
+      "abstract": null
+    },
+    {
+      "id": "P10102",
+      "title": "Fine-tuning osteoclastogenesis: An insight into the cellular and molecular regulation of osteoclastogenesis.",
+      "authors": "Anwar A, Sapra L, Gupta N, Ojha RP, Verma B, Srivastava RK.",
+      "journal": "J Cell Physiol.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1002/jcp.31036",
+      "impact": 6.5,
+      "abstract": null
+    },
+    {
+      "id": "P10101",
+      "title": "Editorial: Gut microbiota and gut-associated metabolites in bone health.",
+      "authors": "Srivastava RK, Duggal NA, Parameswaran N.",
+      "journal": "Front Endocrinol (Lausanne).",
+      "year": 2023,
+      "category": null,
+      "doi": "10.3389/fendo.2023.1232050",
+      "impact": 5.2,
+      "abstract": null
+    },
+    {
+      "id": "P10100",
+      "title": "High Salt Diet Impairs Male Fertility in Mice via Modulating the Skeletal Homeostasis.",
+      "authors": "Saugandhika S, Sapra L, Kumari K, Srivastava RK.",
+      "journal": "Reprod Sci.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1007/s43032-023-01278-w",
+      "impact": 2.9,
+      "abstract": null
+    },
+    {
+      "id": "P1099",
+      "title": "Synergistic correlation between host angiogenin and dengue virus replication.",
+      "authors": "Madhry D, Malvankar S, Phadnis S, Srivastava RK, Bhattacharyya S, Verma B.",
+      "journal": "RNA Biol.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1080/15476286.2023.2264003",
+      "impact": 4.76,
+      "abstract": null
+    },
+    {
+      "id": "P1098",
+      "title": "Modulation of various host cellular machinery during COVID-19 infection.",
+      "authors": "Malvankar S, Singh A, Ravi Kumar YS, Sahu S, Shah M, Murghai Y, Seervi M, Srivastava RK, Verma B.",
+      "journal": "Rev Med Virol.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1002/rmv.2481",
+      "impact": 9.0,
+      "abstract": null
+    },
+    {
+      "id": "P1097",
+      "title": "The SARS-CoV-2 UTR's Intrudes Host RBP's and Modulates Cellular Splicing.",
+      "authors": "Singh A, Pandey KK, Agrawal SK, Srivastava RK, Bhattacharyya S, Verma B.",
+      "journal": "Adv Virol.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1155/2023/2995443",
+      "impact": 1.2,
+      "abstract": null
+    },
+    {
+      "id": "P1096",
+      "title": "COVID-19 induced ARDS: immunopathology and therapeutics.",
+      "authors": "Das S, Sharma T, Bhardwaj A, Srivastava RK*.",
+      "journal": "Explor Immunol.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.37349/ei.2023.00101",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1095",
+      "title": "Cissus quadrangularis (Hadjod) Inhibits RANKL-Induced Osteoclastogenesis and Augments Bone Health in an Estrogen-Deficient Preclinical Model of Osteoporosis Via Modulating the Host Osteoimmune System.",
+      "authors": "Azam Z, Sapra L, Baghel K, Sinha N, Gupta RK, Soni V, Saini C, Mishra PK, Srivastava RK.",
+      "journal": "Cells.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.3390/cells12020216",
+      "impact": 7.7,
+      "abstract": null
+    },
+    {
+      "id": "P1094",
+      "title": "Carbon-Based Fluorescent Nano-Biosensors for the Detection of Cell-Free Circulating MicroRNAs.",
+      "authors": "Ratre P, Nazeer N, Kumari R, Thareja S, Jain B, Tiwari R, Kamthan A, Srivastava RK, Mishra PK.",
+      "journal": "Biosensors (Basel).",
+      "year": 2023,
+      "category": null,
+      "doi": "10.3390/bios13020226",
+      "impact": 5.8,
+      "abstract": null
+    },
+    {
+      "id": "P1093",
+      "title": "Cell-free circulating mitochondrial DNA: An emerging biomarker for airborne particulate matter associated with cardiovascular diseases.",
+      "authors": "Rehman A, Kumari R, Kamthan A, Tiwari R, Srivastava RK, van der Westhuizen FH, Mishra PK.",
+      "journal": "Free Radic Biol Med.",
+      "year": 2023,
+      "category": null,
+      "doi": "10.1016/j.freeradbiomed.2022.12.083",
+      "impact": 8.1,
+      "abstract": null
+    },
+    {
+      "id": "P1092",
+      "title": "Osteometabolism: Metabolic Alterations in Bone Pathologies.",
+      "authors": "Srivastava RK, Sapra L, Mishra PK.",
+      "journal": "Cells.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.3390/cells11233943",
+      "impact": 7.7,
+      "abstract": null
+    },
+    {
+      "id": "P1091",
+      "title": "Human gingival mesenchymal stem cells retain their growth and immunomodulatory characteristics independent of donor age.",
+      "authors": "Dave JR, Chandekar SS, Behera S, Desai KU, Salve PM, Sapkal NB, Mhaske ST, Dewle AM, Pokare PS, Page M, Jog A, Chivte PA, Srivastava RK, Tomar GB.",
+      "journal": "Sci Adv.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1126/sciadv.abm6504",
+      "impact": 14.1,
+      "abstract": null
+    },
+    {
+      "id": "P1090",
+      "title": "Crocin attenuates osteoclastogenesis and enhances bone health by skewing the immunoporotic “Treg-Th17” cell axis in post-menopausal osteoporotic mice model.",
+      "authors": "Azam Z, Sapra L, Bhardwaj A, Yadav S, Mishra PK, Shukla P, Sharma V and Srivastava RK*.",
+      "journal": "Phytomedicine Plus",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1016/j.phyplu.2022.100302",
+      "impact": 6.6,
+      "abstract": null
+    },
+    {
+      "id": "P1089",
+      "title": "Bifidobacterium longum Ameliorates Ovariectomy-Induced Bone Loss via Enhancing Anti-Osteoclastogenic and Immunomodulatory Potential of Regulatory B Cells (Bregs).",
+      "authors": "Sapra L, Shokeen N, Porwal K, Saini C, Bhardwaj A, Mathew M, Mishra PK, Chattopadhyay N, Dar HY, Verma B, Srivastava RK.",
+      "journal": "Front Immunol.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.3389/fimmu.2022.875788",
+      "impact": 8.8,
+      "abstract": null
+    },
+    {
+      "id": "P1088",
+      "title": "IL-21 plays an important role in modulating \"Th17-Treg\" cell axis in leprosy Type 1 reactions.",
+      "authors": "Saini C, Sapra L, Bhardwaj A, Tarique M, Sharma A, Khanna N, Ramesh V, Puri P, Srivastava RK.",
+      "journal": "Cytokine.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1016/j.cyto.2022.155821",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": "P1087",
+      "title": "Long-term implications of COVID-19 on bone health: pathophysiology and therapeutics.",
+      "authors": "Sapra L, Saini C, Garg B, Gupta R, Verma B, Mishra PK, Srivastava RK.",
+      "journal": "Inflamm Res.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/s00011-022-01616-9",
+      "impact": 7.0,
+      "abstract": null
+    },
+    {
+      "id": "P1086",
+      "title": "The Rising Era of \"Immunoporosis\": Role of Immune System in the Pathophysiology of Osteoporosis.",
+      "authors": "Srivastava RK, Sapra L.",
+      "journal": "J Inflamm Res.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.2147/JIR.S351918",
+      "impact": 6.92,
+      "abstract": null
+    },
+    {
+      "id": "P1085",
+      "title": "\"Osteomicrobiology\": The Nexus Between Bone and Bugs.",
+      "authors": "Bhardwaj A, Sapra L, Tiwari A, Mishra PK, Sharma S, Srivastava RK.",
+      "journal": "Front Microbiol.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.3389/fmicb.2021.812466",
+      "impact": 6.0,
+      "abstract": null
+    },
+    {
+      "id": "P1084",
+      "title": "Bioactive metabolites of edible mushrooms efficacious against androgenic alopecia: Targeting SRD5A2 using computational approach.",
+      "authors": "Tiwari A, Kumar S, Choudhir G, Singh G, Gangwar U, Sharma V, Srivastava RK, Sharma S.",
+      "journal": "Journal of Herbal Medicine",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1016/j.hermed.2022.100611",
+      "impact": 2.5,
+      "abstract": null
+    },
+    {
+      "id": "P1083",
+      "title": "Surface-enhanced Raman scattering biosensors for detection of oncomiRs in breast cancer.",
+      "authors": "Chauhan P, Bhargava A, Kumari R, Ratre P, Tiwari R, Srivastava RK, Yu Goryacheva I, Kumar Mishra P.",
+      "journal": "Drug Discov Today.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1016/j.drudis.2022.04.016",
+      "impact": 8.4,
+      "abstract": null
+    },
+    {
+      "id": "P1082",
+      "title": "Cell-free circulating miRNAs-lncRNAs-mRNAs as predictive markers for breast cancer risk assessment in women exposed to indoor air pollution.",
+      "authors": "Agrawal D, Kumari R, Ratre P, Rehman A, Srivastava RK, Reszka E, Goryacheva I, Mishra PK, *.",
+      "journal": "Case Studies in Chemical and Environmental Engineering",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1016/j.cscee.2022.100267",
+      "impact": 4.5,
+      "abstract": null
+    },
+    {
+      "id": "P1081",
+      "title": "Bioanalytical Applications of Graphene Quantum Dots for Circulating Cell-Free Nucleic Acids: A Review.",
+      "authors": "Ratre P, Jain B, Kumari R, Thareja S, Tiwari R, Srivastava RK, Goryacheva IY, Mishra PK.",
+      "journal": "ACS Omega.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1021/acsomega.2c05414",
+      "impact": 4.2,
+      "abstract": null
+    },
+    {
+      "id": "P1080",
+      "title": "Deciphering the Potential of Pre and Pro-Vitamin D of Mushrooms against Mpro and PLpro Proteases of COVID-19: An In Silico Approach.",
+      "authors": "Tiwari A, Singh G, Choudhir G, Motiwale M, Joshi N, Sharma V, Srivastava RK, Sharma S, Tutone M, Singour PK.",
+      "journal": "Molecules.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.3390/molecules27175620",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": "P1079",
+      "title": "Nano-engineered vitamins as a potential epigenetic modifier against environmental air pollutants.",
+      "authors": "Ratre P, Chauhan P, Bhargava A, Tiwari R, Thareja S, Srivastava RK, Mishra PK.",
+      "journal": "Rev Environ Health.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1515/reveh-2022-0027",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": "P1078",
+      "title": "Bifidobacterium Longum Alleviates Bone Loss and Maintains Bone Health By Modulating The Bregs-Tregs-Th17 Cell Axis In Ovx Mice.",
+      "authors": "Sapra L and Srivastava RK*.",
+      "journal": "Aging Clin Exp Res",
+      "year": 2022,
+      "category": null,
+      "doi": null,
+      "impact": 4.5,
+      "abstract": null
+    },
+    {
+      "id": "P1077",
+      "title": "How Losing Sleep Following Vaccination May Weaken the Response to SARS-CoV Vaccines.",
+      "authors": "Akhtar N, Srivastava RK, Shrivastava D.",
+      "journal": "Sleep Vigil.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/s41782-022-00195-3",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1075",
+      "title": "Gut metabolite 5’-hydroxyindoleacetic acid (HIAA) inhibits osteoclastogenesis.",
+      "authors": "Sapra L, Bhardwaj A and Srivastava RK*.",
+      "journal": "Osteoporos Int.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/s00198-022-06343-9",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": "P1074",
+      "title": "Bifidobacterium longum inhibits bone loss in Osteoporotic mice via inducing ptregs in gut.",
+      "authors": "Bhardwaj A, Sapra L and Srivastava RK*.",
+      "journal": "Osteoporos Int.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/s00198-022-06343-9",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": "P1073",
+      "title": "Bifidobacterium longum attenuates bone loss and maintains bone health by modulating bregs-tregs-th17 cell axis in ovx mice.",
+      "authors": "Sapra L, Bhardwaj A and Srivastava RK*.",
+      "journal": "Osteoporos Int.",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/s00198-021-06125-9",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": "P1072",
+      "title": "Lactobacillus rhamnosus enhances bone health via modulating peripheral tregs (ptregs) in osteoporotic mice.",
+      "authors": "Bhardwaj A, Sapra L and Srivastava RK*.",
+      "journal": "Osteoporos Int.",
+      "year": 2022,
+      "category": null,
+      "doi": null,
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": "P1071",
+      "title": "IL-10 producing Bregs suppress osteoclastogenesis and regulate inflammatory bone loss in osteoporosis.",
+      "authors": "Srivastava RK* and Sapra L.",
+      "journal": "Journal of Bone and Mineral Research",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1002/jbmr.4515",
+      "impact": 6.8,
+      "abstract": null
+    },
+    {
+      "id": "P1070",
+      "title": "Homocysteine and Bone Health.",
+      "authors": "Bhardwaj A, Sapra L, Verma B and Srivastava RK*.",
+      "journal": "Springer Nature",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/978-981-16-6867-8_4",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1069",
+      "title": "Co-Product Recovery in Food Processing.",
+      "authors": "Tiwari A, Singh G, Chowdhary K, Choudhir G, Sharma V, Sharma S and Srivastava RK.",
+      "journal": "Springer Nature",
+      "year": 2022,
+      "category": null,
+      "doi": "10.1007/978-981-19-1746-2_12",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1069",
+      "title": "Regulatory B Cells (Bregs) Inhibit Osteoclastogenesis and Play a Potential Role in Ameliorating Ovariectomy-Induced Bone Loss.",
+      "authors": "Sapra L, Bhardwaj A, Mishra PK, Garg B, Verma B, Mishra GC, Srivastava RK.",
+      "journal": "Front Immunol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.3389/fimmu.2021.691081",
+      "impact": 8.8,
+      "abstract": null
+    },
+    {
+      "id": "P1068",
+      "title": "Lactobacillus rhamnosus attenuates bone loss and maintains bone health by skewing Treg-Th17 cell balance in Ovx mice.",
+      "authors": "Sapra L, Dar HY, Bhardwaj A, Pandey A, Kumari S, Azam Z, Upmanyu V, Anwar A, Shukla P, Mishra PK, Saini C, Verma B, Srivastava RK.",
+      "journal": "Sci Rep.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1038/s41598-020-80536-2",
+      "impact": 5.8,
+      "abstract": null
+    },
+    {
+      "id": "P1067",
+      "title": "Harnessing the potential of UVB irradiation for improving the nutraceutical properties of edible xylotrophic mushroom dried powder.",
+      "authors": "Tiwari A, Singh G, Sharma V, Srivastava RK, Sharma S.",
+      "journal": "LWT - Food Science and Technology",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1016/j.lwt.2021.111913",
+      "impact": 6.0,
+      "abstract": null
+    },
+    {
+      "id": "P1066",
+      "title": "Lateral flow assay-based detection of long non-coding RNAs: A point-of-care platform for cancer diagnosis.",
+      "authors": "Ranjan S, Jain S, Bhargava A, Shandilya R, Srivastava RK, Mishra PK.",
+      "journal": "J Pharm Biomed Anal.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1016/j.jpba.2021.114285",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": "P1065",
+      "title": "COVID-19: Immunology, Immunopathogenesis and Potential Therapies.",
+      "authors": "Bhardwaj A, Sapra L, Saini C, Azam Z, Mishra PK, Verma B, Mishra GC, Srivastava RK.",
+      "journal": "Int Rev Immunol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1080/08830185.2021.1883600",
+      "impact": 5.5,
+      "abstract": null
+    },
+    {
+      "id": "P1064",
+      "title": "Neuronal Nitric Oxide Synthase (nNOS) in Neutrophils: An Insight.",
+      "authors": "Saini R, Azam Z, Sapra L, Srivastava RK.",
+      "journal": "Rev Physiol Biochem Pharmacol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1007/112_2021_61",
+      "impact": 6.0,
+      "abstract": null
+    },
+    {
+      "id": "P1063",
+      "title": "Phytotherapy for treatment of cytokine storm in COVID-19.",
+      "authors": "Sapra L, Bhardwaj A, Azam Z, Madhry D, Verma B, Rathore S, Srivastava RK.",
+      "journal": "Front Biosci (Landmark Ed).",
+      "year": 2021,
+      "category": null,
+      "doi": "10.52586/4924",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": "P1062",
+      "title": "“Immunoporosis”: Immunology of Osteoporosis.",
+      "authors": "Sapra L, Azam Z, Rani L, Saini C, Bhardwaj A, Shokeen N, Ahmad A, Mishra GC and Srivastava RK*.",
+      "journal": "Proc. Natl. Acad. Sci., India, Sect. B Biol. Sci.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1007/s40011-021-01238-x",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1061",
+      "title": "Editorial: Recent Advances in Basic and Translational Osteoimmunology.",
+      "authors": "Srivastava RK, Schmidt-Bleek K, Chattopadhyay N, De Martinis M, Mishra PK.",
+      "journal": "Front Immunol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.3389/fimmu.2021.800508",
+      "impact": 8.8,
+      "abstract": null
+    },
+    {
+      "id": "P1060",
+      "title": "Edible mushrooms: The potential game changer in alleviating vitamin D deficiency and improving human health.",
+      "authors": "Tiwari A, Singh G, Singh U, Sapra L, Rana V, Sharma V, Srivastava RK & Sharma S*.",
+      "journal": "International Journal of Food Science and Technology",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1111/ijfs.15410",
+      "impact": 3.7,
+      "abstract": null
+    },
+    {
+      "id": "P1059",
+      "title": "Regulatory roles of tRNA-derived RNA fragments in human pathophysiology.",
+      "authors": "Pandey KK, Madhry D, Kumar YS, Malvankar S, Sapra L, Srivastava RK, Bhattacharyya S, Verma B.",
+      "journal": "Mol Ther Nucleic Acids.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.1016/j.omtn.2021.06.023",
+      "impact": 10.2,
+      "abstract": null
+    },
+    {
+      "id": "P1058",
+      "title": "Role of non-coding RNAs in Dengue virus-host interaction.",
+      "authors": "Madhry D, Pandey KK, Kaur J, Rawat Y, Sapra L, Srivastava RK, Bhattacharyya S, Verma B.",
+      "journal": "Front Biosci (Schol Ed).",
+      "year": 2021,
+      "category": null,
+      "doi": "10.52586/S552",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": "P1057",
+      "title": "Regulatory B Cells (Bregs) Inhibit Osteoclastogenesis and Play a Potential Role in Ameliorating Ovariectomy-Induced Bone Loss.",
+      "authors": "Sapra L, Bhardwaj A, Mishra PK, Garg B, Verma B, Mishra GC, Srivastava RK.",
+      "journal": "Front Immunol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.3389/fimmu.2021.691081",
+      "impact": 8.8,
+      "abstract": null
+    },
+    {
+      "id": "P1056",
+      "title": "Transcriptomics Approaches to Study Role of ncRNAs in Reproductive Health.",
+      "authors": "Singh A, Malvankar S, Pandey KK, Kumar S, Srivastava RK and Verma B.",
+      "journal": "Indian Society for Study of Reproduction and Fertility (ISSRF) 27th Newsletter.",
+      "year": 2021,
+      "category": null,
+      "doi": null,
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1055",
+      "title": "Recent Advances in Basic and Translational Osteoimmunology.",
+      "authors": "Srivastava, R. K.*, Chattopadhyay, N., Schmidt-Bleek, K., Mishra, P. K., De Martinis, M., eds.",
+      "journal": "Lausanne: Frontiers Media SA.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.3389/978-2-88974-014-7",
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": "P1054",
+      "title": "Editorial: Recent Advances in Basic and Translational Osteoimmunology.",
+      "authors": "Srivastava RK, Schmidt-Bleek K, Chattopadhyay N, De Martinis M, Mishra PK.",
+      "journal": "Front Immunol.",
+      "year": 2021,
+      "category": null,
+      "doi": "10.3389/fimmu.2021.800508",
+      "impact": 8.8,
+      "abstract": null
+    },
+    {
+      "id": "P1053",
+      "title": "Immune system and COVID-19 Management and potential therapies",
+      "authors": "Srivastava RK*.",
+      "journal": "Pharma Focus Asia.",
+      "year": 2021,
+      "category": null,
+      "doi": null,
+      "impact": null,
+      "abstract": null
+    },
+    {
+      "id": 'P1052',
+      "title": "Clostridium perfringens phospholipase C impairs innate immune response by inducing integrated stress response and mitochondrial-induced epigenetic modifications",
+      "authors": "Bunkar N, Sharma J, Chouksey A, Kumari R, Gupta PK, Tiwari R, Lodhi L, Srivastava RK, Bhargava A, Mishra PK",
+      "journal": "Cell Signal",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1016/j.cellsig.2020.109776",
+      "impact": 4.9,
+      "abstract": null
+    },
+    {
+      "id": 'P1051',
+      "title": "Elevated IL-6R on CD4+ T cells promotes IL-6 driven Th17 cell responses in patients with T1R leprosy reactions",
+      "authors": "Saini C, Srivastava RK, Tarique M, Kurra S, Khanna N, Ramesh V, Sharma A",
+      "journal": "Sci Rep",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1038/s41598-020-72148-7",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1050',
+      "title": "A distinct double positive IL-17A+/F+ T helper 17 cells induced inflammation leads to IL17 producing neutrophils in Type 1 reaction of leprosy patients",
+      "authors": "Saini C, Srivastava RK, Kumar P, Ramesh V, Sharma A",
+      "journal": "Cytokine",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1016/j.cyto.2019.154873",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1049',
+      "title": "Phytoconstituents as novel osteo-protective agents: Implications in bone health",
+      "authors": "Azam Z, Pandey V, Gupta N, Sapra L, Dar HY, Shokeen N, Soni V, Srivastava RK",
+      "journal": "Front Biosci (Landmark Ed)",
+      "year": 2020,
+      "category": null,
+      "doi": "10.2741/4855",
+      "impact": 4.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1048',
+      "title": "Sodium Benzoate (NaB) attenuates osteoporosis and enhances bone health via modulating host osteoimmune system",
+      "authors": "Srivastava RK*, Sapra L, Bhardwaj A, Ahmad A, Azam Z",
+      "journal": "Journal of Bone and Mineral Research",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1002/jbmr.4206",
+      "impact": 6.8,
+      "abstract": null
+    },
+    {
+      "id": 'P1047',
+      "title": "Cyanotoxin “MC-LR” induces Bone Loss by modulating Treg-Th17 Immune Cell Axis",
+      "authors": "Sapra L, Tejaswini M, Azam Z, Bhardwaj A, Srivastava RK*",
+      "journal": "Osteoporos Int",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1007/s00198-020-05696-3",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1046',
+      "title": "Lactobacillus rhamnosus Enhances Bone Health In Osteoporotic Mice via Modulating Host Immune System",
+      "authors": "Bhardwaj A, Dar HY, Pandey A, Sapra L, Azam Z, Srivastava RK*",
+      "journal": "Osteoporos Int",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1007/s00198-020-05696-3",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1045',
+      "title": "Noncaloric Artificial Sweetener-Aspartame (NAS-A) intake and Bone Health: Role of Th17-Treg Cell Axis",
+      "authors": "Azam Z, Dar HY, Sapra L, Bhardwaj A, Srivastava RK*",
+      "journal": "Osteoporos Int",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1007/s00198-020-05696-3",
+      "impact": 5.0,
+      "abstract": null
+    },
+    {
+      "id": 'P1044',
+      "title": "IL-6 promotes pathogenic Th17 in T1R leprosy reactions by stimulating IL17 producing by IL-6R pathway",
+      "authors": "Saini C, Srivastava RK, Khanna N, Ramesh V, Sharma A",
+      "journal": "International Journal of Infectious Diseases",
+      "year": 2020,
+      "category": null,
+      "doi": "10.1016/j.ijid.2020.09.1212",
+      "impact": 12.03,
+      "abstract": null
+    },
+    {
+      "id": 'P1043',
+      "title": "Nano encapsulation of curcumin to enhance its anti-osteoporotic efficacy in post-menopausal osteoporosis",
+      "authors": "Sapra L, Bhardwaj A, Azam Z, Anwar A, Upmanyu V, Srivastava RK*",
+      "journal": "Indian Society for Study of Reproduction and Fertility (ISSRF) 26th Newsletter",
+      "year": 2020,
+      "category": null,
+      "doi": null,
+      "impact": null,
+      "abstract": null
+    },
+
+    {
+      id: 'P1042',
+      title: "Intrinsically Disordered Human T Lymphotropic Virus Type 1 p30 Protein: Experimental and Computational Evidence",
+      authors: "Namdev P, Lyngdoh DL, Dar HY, Chaurasiya SK, Srivastava RK, Tripathi T, Anupam R",
+      journal: "AIDS Res Hum Retroviruses",
+      year: 2019,
+      category: null,
+      doi: "10.1089/AID.2018.0196",
+      impact: 1.9,
+      abstract: null
+    },
+    {
+      id: 'P1041',
+      title: "Validation of environmental disinfection efficiency of traditional Ayurvedic fumigation practices",
+      authors: "Bhatwalkar SB, Shukla P, Srivastava RK, Mondal R, Anupam R",
+      journal: "J Ayurveda Integr Med",
+      year: 2019,
+      category: null,
+      doi: "10.1016/j.jaim.2019.05.002",
+      impact: 1.1,
+      abstract: null
+    },
+    {
+      id: 'P1040',
+      title: "Anti-biofilm and Antibacterial Activity of Allium sativum Against Drug Resistant Shiga-Toxin Producing Escherichia coli (STEC) Isolates from Patient Samples and Food Sources",
+      authors: "Bhatwalkar SB, Gound SS, Mondal R, Srivastava RK, Anupam R",
+      journal: "Indian J Microbiol",
+      year: 2019,
+      category: null,
+      doi: "10.1007/s12088-019-00784-3",
+      impact: 2.5,
+      abstract: null
+    },
+    {
+      id: 'P1039',
+      title: "Induction of T7 Promoter at Higher Temperatures May Be Counterproductive",
+      authors: "Namdev P, Dar HY, Srivastava RK, Mondal R, Anupam R",
+      journal: "Indian J Clin Biochem",
+      year: 2019,
+      category: null,
+      doi: "10.1007/s12291-019-0813-y",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1038',
+      title: "Nano-engineered flavonoids for cancer protection",
+      authors: "Bunkar N, Shandilya R, Bhargava A, Samarth RM, Tiwari R, Mishra DK, Srivastava RK, Sharma RS, Lohiya NK, Mishra PK",
+      journal: "Front Biosci (Landmark Ed)",
+      year: 2019,
+      category: null,
+      doi: "10.2741/4771",
+      impact: 4.0,
+      abstract: null
+    },
+    {
+      id: 'P1037',
+      title: "Sodium Benzoate (NaB) - A Food Additive, Inhibits bone loss by upregulating anti-Osteoclastogenic T Cells",
+      authors: "Srivastava RK*, H. Y. Dar",
+      journal: "Osteoporos Int",
+      year: 2019,
+      category: null,
+      doi: "10.1007/s00198-018-04815-5",
+      impact: 5.0,
+      abstract: null
+    },
+    {
+      id: 'P1036',
+      title: "Lactobacillus rhamnosus (LR) enhances Bone Health In Osteoporotic Mice Model (Ovx) By Regulating Treg-Th17 Balance",
+      authors: "Hamid Y. Dar, Srivastava RK",
+      journal: "Osteoporos Int",
+      year: 2019,
+      category: null,
+      doi: "10.1007/s00198-018-04815-5",
+      impact: 5.0,
+      abstract: null
+    },
+    {
+      id: 'P1035',
+      title: "Invited Editor of 24th Newsletter of Indian Society for the study of Reproduction & Fertility (ISSRF), India, 2019 with thematic focus on “Translational Research in Reproductive Health”",
+      authors: "Srivastava RK",
+      journal: "ISSRF Newsletter",
+      year: 2019,
+      category: "Editorial",
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1034',
+      title: "Testicular Macrophages: Caretakers of Testicular Niche (invited review)",
+      authors: "Sapra L, Shokeen N, Azam Z, Bhardwaj A, Ahmad A, Srivastava RK*",
+      journal: "ISSRF 24th Newsletter",
+      year: 2019,
+      category: "Invited Review",
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1033',
+      title: "How salt hate your bones: the nexus between high dietary salt intake and bone loss",
+      authors: "Dar HY, Sapra L, Kumari S, Srivastava RK*",
+      journal: "Atlas of Science",
+      year: 2019,
+      category: "Science Communication",
+      doi: "https://atlasofscience.org/how-salt-hate-your-bones-the-nexus-between-high-dietary-salt-intake-and-bone-loss/",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1032',
+      title: "High dietary salt intake correlates with modulated Th17-Treg cell balance resulting in enhanced bone loss and impaired bone-microarchitecture in male mice",
+      authors: "Dar HY, Singh A, Shukla P, Anupam R, Mondal RK, Mishra PK, Srivastava RK",
+      journal: "Sci Rep",
+      year: 2018,
+      category: null,
+      doi: "10.1038/s41598-018-20896-y",
+      impact: 5.8,
+      abstract: null
+    },
+    {
+      id: 'P1031' ,
+      title: "Bacillus clausii inhibits bone loss by skewing Treg-Th17 cell equilibrium in postmenopausal osteoporotic mice model",
+      authors: "Dar HY, Pal S, Shukla P, Mishra PK, Tomar GB, Chattopadhyay N, Srivastava RK",
+      journal: "Nutrition",
+      year: 2018,
+      category: null,
+      doi: "10.1016/j.nut.2018.02.013",
+      impact: 4.1,
+      abstract: null
+    },
+    {
+      id: 'P1030',
+      title: "Microcystin-leucine arginine (MC-LR) induces bone loss and impairs bone micro-architecture by modulating host immunity in mice: Implications for bone health",
+      authors: "Dar HY, Lone Y, Koiri RK, Mishra PK, Srivastava RK",
+      journal: "Environ Pollut",
+      year: 2018,
+      category: null,
+      doi: "10.1016/j.envpol.2018.03.059",
+      impact: 10.0,
+      abstract: null
+    },
+    {
+      id: 'P1029',
+      title: "Lactobacillus acidophilus inhibits bone loss and increases bone heterogeneity in osteoporotic mice via modulating Treg-Th17 cell balance",
+      authors: "Dar HY, Shukla P, Mishra PK, Anupam R, Mondal RK, Tomar GB, Sharma V, Srivastava RK",
+      journal: "Bone Rep",
+      year: 2018,
+      category: null,
+      doi: "10.1016/j.bonr.2018.02.001",
+      impact: 4.6,
+      abstract: null
+    },
+    {
+      id: 'P1028',
+      title: "Osteoimmunology: The Nexus between bone and immune system",
+      authors: "Dar HY, Azam Z, Anupam R, Mondal RK, Srivastava RK",
+      journal: "Front Biosci (Landmark Ed)",
+      year: 2018,
+      category: null,
+      doi: "10.2741/4600",
+      impact: 4.0,
+      abstract: null
+    },
+    {
+      id: 'P1027',
+      title: "Quantum Dot Based Nano-Biosensors for Detection of Circulating Cell Free miRNAs in Lung Carcinogenesis: From Biology to Clinical Translation",
+      authors: "Singh RD, Shandilya R, Bhargava A, Kumar R, Tiwari R, Chaudhury K, Srivastava RK, Goryacheva IY, Mishra PK",
+      journal: "Front Genet",
+      year: 2018,
+      category: null,
+      doi: "10.3389/fgene.2018.00616",
+      impact: 4.8,
+      abstract: null
+    },
+    {
+      id: 'P1026',
+      title: "Dendritic cell engineering for selective targeting of female reproductive tract cancers",
+      authors: "Bhargava A, Srivastava RK, Mishra DK, Tiwari RR, Sharma RS & Mishra PK",
+      journal: "Indian J Med Res",
+      year: 2018,
+      category: null,
+      doi: "10.4103/ijmr.IJMR_224_18",
+      impact: 2.5,
+      abstract: null
+    },
+    {
+      id: 'P1025',
+      title: "Immunoporosis: Immunology of Osteoporosis-Role of T Cells",
+      authors: "Srivastava RK, Dar HY, Mishra PK",
+      journal: "Front Immunol",
+      year: 2018,
+      category: null,
+      doi: "10.3389/fimmu.2018.00657",
+      impact: 8.8,
+      abstract: null
+    },
+    {
+      id: 'P1024',
+      title: "Bacillus clausii (BC) inhibits ovariectomy induced osteoporosis via modulation of Treg Th17 cells",
+      authors: "Dar HY & Srivastava RK*",
+      journal: "Osteoporos Int",
+      year: 2018,
+      category: null,
+      doi: "",
+      impact: 5.0,
+      abstract: null
+    },
+    {
+      id: 'P1023',
+      title: "Immunoporosis: The Immunology of Osteoporosis",
+      authors: "Srivastava RK",
+      journal: "Molecular Medicine - Bench to Bedside and Beyond, 1st Ed.",
+      year: 2018,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1022',
+      title: "Algal-Bloom-Produced Toxins Negatively Affect Our Osteo-Immune System",
+      authors: "Srivastava RK*",
+      journal: "Science Trends",
+      year: 2018,
+      category: null,
+      doi: "10.31988/SciTrends.20358",
+      impact: null,
+      abstract: null
+    },
+
+
+    {
+      id: 'P1021',
+      title: "Ultrafine particulate matter impairs mitochondrial redox homeostasis and activates phosphatidylinositol 3-kinase mediated DNA damage responses in lymphocytes",
+      authors: "Bhargava A, Tamrakar S, Aglawe A, Lad H, Srivastava RK, Mishra DK, Tiwari R, Chaudhury K, Goryacheva IY, Mishra PK",
+      journal: "Environ Pollut",
+      year: 2018,
+      category: null,
+      doi: "10.1016/j.envpol.2017.11.093",
+      impact: 10.0,
+      abstract: null
+    },
+    {
+      id: 'P1020',
+      title: "Lactobacillus acidophilus enhances trabecular and cortical bone microarchitecture in ovx mice via modulating host immune system",
+      authors: "Dar HY and Srivastava RK*",
+      journal: "Osteoporosis and Sarcopenia",
+      year: 2017,
+      category: null,
+      doi: "10.1016/j.afos.2017.08.009",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1019',
+      title: "Hi dietary salt intake induces bone loss in ovx mice by skewing Treg-Th17 balance",
+      authors: "Srivastava RK* and Dar HY",
+      journal: "Osteoporosis and Sarcopenia",
+      year: 2017,
+      category: null,
+      doi: "10.1016/j.afos.2017.08.077",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1018',
+      title: "Hi-Salt Diet Induces Bone Loss",
+      authors: "Dar HY, Choudhary ZA, Srivastava RK*",
+      journal: "Osteoporosis International",
+      year: 2017,
+      category: null,
+      doi: "10.1007/s00198-017-3950-2",
+      impact: 5.0,
+      abstract: null
+    },
+    {
+      id: 'P1017',
+      title: "Immunomodulatory Effects of Food Additives",
+      authors: "Dar HY, Chaturvedi S, Srivastava K, Azam Z, Anupam R, Mondal R, Tomar GB, Singh AK, Mishra PK and Srivastava RK*",
+      journal: "Int J Immunother Cancer Res",
+      year: 2017,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1016',
+      title: "An Account of Dengue Epidemics in Central India",
+      authors: "Priyanka N, Rajesh MK, Rupesh SK, Soni V, Anupam R",
+      journal: "J Clin Microbiol Biochem Technol",
+      year: 2017,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+
+
+    {
+      id: 'P1015',
+      title: "Comparative assessment of lipid-based nano-carrier systems for dendritic cell-based targeting of tumor re-initiating cells in gynecological cancers",
+      authors: "Bhargava A, Mishra DK, Jain SK, Srivastava RK, Lohiya NK, Mishra PK",
+      journal: "Mol Immunol",
+      year: 2016,
+      category: null,
+      doi: "10.1016/j.molimm.2016.10.003",
+      impact: 4.1,
+      abstract: null
+    },
+    {
+      id: 'P1014',
+      title: "Uncoupling protein 2 regulates metabolic reprogramming and fate of antigen-stimulated CD8+ T cells",
+      authors: "Chaudhuri L, Srivastava RK, Kos F, Shrikant PA",
+      journal: "Cancer Immunol Immunother",
+      year: 2016,
+      category: null,
+      doi: "10.1007/s00262-016-1851-4",
+      impact: 5.8,
+      abstract: null
+    },
+    {
+      id: 'P1013',
+      title: "Lactobacillus acidophilus inhibits bone loss in osteoporotic mice by modulating Th17-Treg cell balance",
+      authors: "Srivastava RK*, Dar HY",
+      journal: "Osteoporosis International",
+      year: 2016,
+      category: null,
+      doi: "10.1007/s00198-016-3747-8",
+      impact: 5.0,
+      abstract: null
+    },
+    {
+      id: 'P1012',
+      title: "Developing combinatorial approaches for durable cancer treatment",
+      authors: "R. Brightwell, A. Amobi, K. Wooten, R. Srivastava, K.O. Odunsi, P. Shrikant",
+      journal: "Gynecologic Oncology",
+      year: 2016,
+      category: null,
+      doi: "10.1016/j.ygyno.2016.04.509",
+      impact: 5.3,
+      abstract: null
+    },
+    {
+      id: 'P1011',
+      title: "The Kinship between Salt and Fertility (invited review)",
+      authors: "Srivastava RK*, Dar HY and Singh A",
+      journal: "Indian Society for Study of Reproduction and Fertility (ISSRF) Newsletter",
+      year: 2016,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1010',
+      title: "Is High Salt Intake Making Us Infertile - Are Th17 Cells To Blame? (invited review)",
+      authors: "Srivastava RK*",
+      journal: "Indian Society for Study of Reproduction and Fertility (ISSRF) Newsletter",
+      year: 2016,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    
+    {
+      id: 'P1009',
+      title: "Probiotics and Bone Health: It takes GUTS to Improve Bone Density",
+      authors: "Yousf H, Tomar GB, Srivastava RK",
+      journal: "Int J Immunother Cancer Res",
+      year: 2015,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1008',
+      title: "Pre-eclampsia and Recurrent Pregnancy Loss: Emerging Role of Th17 Cells (invited review)",
+      authors: "Srivastava RK, ",
+      journal: "Indian Society for Study of Reproduction and Fertility (ISSRF) Newsletter",
+      year: 2015,
+      category: null,
+      doi: "",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1007',
+      title: "Rapamycin: A rheostat for CD8(+) T-cell-mediated tumor therapy",
+      authors: "Srivastava RK, Utley A, Shrikant PA",
+      journal: "Oncoimmunology",
+      year: 2012,
+      category: null,
+      doi: "10.4161/onci.20663",
+      impact: 8.71,
+      abstract: null
+    },
+    {
+      id: 'P1006',
+      title: "IL-3 promotes osteoblast differentiation and bone formation in human mesenchymal stem cells",
+      authors: "Barhanpurkar AP, Gupta N, Srivastava RK, Tomar GB, Naik SP, Joshi SR, Pote ST, Mishra GC, Wani MR",
+      journal: "Biochem Biophys Res Commun",
+      year: 2012,
+      category: null,
+      doi: "10.1016/j.bbrc.2012.01.074",
+      impact: null,
+      abstract: null
+    },
+    {
+      id: 'P1005',
+      title: "IL-3 attenuates collagen-induced arthritis by modulating the development of Foxp3+ regulatory T cells",
+      authors: "Srivastava RK, Tomar GB, Barhanpurkar AP, Gupta N, Pote ST, Mishra GC, Wani MR",
+      journal: "J Immunol",
+      year: 2011,
+      category: null,
+      doi: "10.4049/jimmunol.1002691",
+      impact: 5.5,
+      abstract: null
+    },
+    {
+      id: 'P1004',
+      title: "IL-3 promotes osteoblast differentiation and bone formation in human mesenchymal stem cells",
+      authors: "Barhanpurkar AP, Gupta N, Srivastava RK, Tomar GB, Naik SP, Joshi SR, Pote ST, Mishra GC, Wani MR",
+      journal: "Biochem Biophys Res Commun",
+      year: 2011,
+      category: null,
+      doi: "10.1016/j.bbrc.2012.01.074",
+      impact: null,
+      abstract: null
+    },
+    
+    {
+      id: 'P1003',
+      title: 'IL-3 inhibits human osteoclastogenesis and bone resorption through downregulation of c-Fms and diverts the cells to dendritic cell lineage.',
+      authors: 'Gupta N, Barhanpurkar AP, Tomar GB, Srivastava RK, Kour S, Pote ST, Mishra GC, Wani MR',
+      journal: 'J Immunol',
+      year: 2010,
+      category: null,
+      doi: '10.4049/jimmunol.1000015',
+      impact:5.5 ,
+      abstract:null
+    },
+    {
+      id: 'P1002',
+      title: 'Human gingiva-derived mesenchymal stem cells are superior to bone marrow-derived mesenchymal stem cells for cell therapy in regenerative medicine. ',
+      authors: 'Tomar GB, Srivastava RK, Gupta N, Barhanpurkar AP, Pote ST, Jhaveri HM, Mishra GC, Wani MR',
+      journal: 'Biochem Biophys Res Commun.',
+      year: 2010,
+      category: null,
+      doi: '10.1016/j.bbrc.2010.01.126',
+      impact:2.9 ,
+      abstract:null
+    },
+    {
+      id:'P1001',
+      title: 'L-3 inhibits TNF-alpha-induced bone resorption and prevents inflammatory arthritis.',
+      authors: 'Yogesha SD, Khapli SM, Srivastava RK, Mangashetti LS, Pote ST, Mishra GC, Wani MR',
+      journal: 'J Immunol.',
+      year: 2009,
+      category: null,
+      doi: '10.4049/jimmunol.182.1.361',
+      impact: 5.5 ,
       abstract:null
     },
     
